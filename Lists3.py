@@ -17,3 +17,11 @@ lib2 = {'james','hary potter','adarsh'}         # assigning value to lib2
 m = lib1.intersection(lib2)                     # you can use intersection to find common in both terms here 
 
 print(m)                                        # we have hve harry potter both common so harry potter will be printed
+
+m2 = lib1.union(lib2)                           # you can use union function to print all items in lib2and lib2
+
+print(m2)                                       # now all items will be printed
+
+m3 = lib1.difference(lib2)                      # if you wanty a difference you can use function difference
+
+print(m3)                                       # now the difference btx. lib1 and lib2 will be printed
